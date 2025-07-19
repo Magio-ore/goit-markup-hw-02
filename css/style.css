@@ -1,8 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: white;
-    color: black;
-    line-height: 1.2;
+    color: #434455;
 }
 
 h1 {
@@ -41,17 +40,23 @@ footer {
 
 .logo {
     font-weight: bold;
-    font-size: 20px;
-    color: #2e2f42;
+    font-size: 18px;
+    color: #4d5ae5;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 
 .logo span {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-list {
     list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-list li a {
