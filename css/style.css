@@ -13,12 +13,16 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 p {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 a {
@@ -29,9 +33,7 @@ ul {
     list-style-type: none;
 }
 
-footer {
-    background-color: #2e2f42;
-}
+
 
 /* Header */
 .header {
@@ -88,14 +90,15 @@ footer {
 .contacts ul {
     list-style: none;
 }
-.contacts ul:focus{
-    color: #404bbf;
-}
 
 .contacts a {
     color: #434455;
     text-decoration: none;
     font-size: 16px;
+}
+
+.contacts a:focus{
+    color: #404bbf;
 }
 
 .contacts a:hover {
@@ -116,7 +119,6 @@ footer {
 }
 
 .b-order-service {
-    border-radius: 4px;
     background-color: #4d5ae5;
     color: white;
     font-weight: 500;
@@ -138,7 +140,6 @@ footer {
 .choose-us {
     background-color: white;
 }
-
 /* Why Choose US - End */
 
 /* Our Team */
@@ -148,6 +149,10 @@ footer {
 /* Our Team - End */
 
 /* Footer */
+.footer {
+    background-color: #2e2f42;
+}
+
 .logo-footer {
     font-weight: bold;
     font-size: 18px;
@@ -165,6 +170,8 @@ footer {
 
 .text-footer {
     color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer - End */
