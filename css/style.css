@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #2e2f42;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #4d5ae5;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-list li a:hover {
+    color: #404bbf;
+}
+
+.nav-list li a:active {
+    color: #404bbf;
+    text-decoration: underline #404bbf 4px;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts a {
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contacts a:hover {
+    color: #404bbf;
+}
+
+/* Header - End */
+
+/* Hero */
+.hero-image {
+    height: 600px;
+    background-color: #2e2f42;
+    color: #fff;
+}
+
+.b-order-service {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.b-order-service:hover {
+    background-color: #404bbf;
+}
+
+/* Hero - End */
+
+/* Why Choose US */
+.choose-us {
+    background-color: white;
+}
+
+/* Why Choose US - End */
+
+/* Footer */
+.logo-footer {
+    font-weight: bold;
+    font-size: 20px;
+    color: #f4f4fd;
+    text-decoration: none;
+}
+
+.logo-footer span {
+    color: #4d5ae5;
+}
+
+.text-footer {
+    color: #f4f4fd;
+}
+
+/* Footer - End */
