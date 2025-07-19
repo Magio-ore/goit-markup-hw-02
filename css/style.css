@@ -70,6 +70,10 @@ footer {
     color: #404bbf;
 }
 
+.nav-list li a:focus {
+    color: #404bbf;
+}
+
 .nav-list li a:active {
     color: #404bbf;
     text-decoration: underline #404bbf 4px;
@@ -77,10 +81,15 @@ footer {
 
 .contacts {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contacts ul {
     list-style: none;
+}
+.contacts ul:focus{
+    color: #404bbf;
 }
 
 .contacts a {
@@ -97,18 +106,29 @@ footer {
 
 /* Hero */
 .hero-image {
-    height: 600px;
     background-color: #2e2f42;
     color: #fff;
+}
+.main-text{
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .b-order-service {
     border-radius: 4px;
     background-color: #4d5ae5;
     color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .b-order-service:hover {
+    background-color: #404bbf;
+}
+.b-order-service:focus {
     background-color: #404bbf;
 }
 
