@@ -104,11 +104,8 @@ footer {
 
 .b-order-service {
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .b-order-service:hover {
@@ -133,13 +130,17 @@ footer {
 /* Footer */
 .logo-footer {
     font-weight: bold;
-    font-size: 20px;
-    color: #f4f4fd;
+    font-size: 18px;
+    color: #4d5ae5;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 
 .logo-footer span {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .text-footer {
